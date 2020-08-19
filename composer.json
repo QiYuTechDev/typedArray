@@ -6,8 +6,13 @@
     "keywords": [
         "Typed Array"
     ],
-    "license": "",
-    "authors": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "QiYuTech",
+            "email": "dev@qiyutech.tech"
+        }
+    ],
     "require": {
         "php": ">=5.6",
         "ext-json": "*"
