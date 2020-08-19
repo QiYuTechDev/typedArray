@@ -1,0 +1,22 @@
+{
+    "name": "qiyutech/typeArray",
+    "version": "v0.1.0",
+    "description": "we do like strong type!",
+    "type": "library",
+    "keywords": [
+        "Typed Array"
+    ],
+    "license": "",
+    "authors": [],
+    "require": {
+        "php": ">=5.6",
+        "ext-json": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Typed\\": "src/"
+        }
+    }
+}

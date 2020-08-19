@@ -1,2 +1,4 @@
 # typedArray
-php typed array
+PHP typed Array
+
+We do like strong type
