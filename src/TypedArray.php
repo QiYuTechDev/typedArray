@@ -141,8 +141,11 @@ class TypedArray extends ArrayObject implements JsonSerializable
         if (is_array($value)) {
             return $this->to_array_value($value);
         } else if (is_subclass_of($value, self::class)) {
-            /** @var static $value */
-            return $value->to_array();
+            if (is_string($value)) { // 兼容 XDebug 8.0
+                return $value;
+            } else {
+                return $value->to_array();
+            }
         } else {
             return $value;
         }
