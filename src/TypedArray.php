@@ -33,7 +33,7 @@ class TypedArray extends ArrayObject implements JsonSerializable
      * 从 array 值转换成此类
      *
      * @param array $data
-     * @return self
+     * @return static
      */
     public static function from_array(array $data = [])
     {
